@@ -1,0 +1,9 @@
+[package]
+name = "rustc_internal_bug_1"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chumsky = { git = "https://github.com/zesterer/chumsky", rev = "ac31aea841c395138aee43ff5139fb49d4a9a60c" }
